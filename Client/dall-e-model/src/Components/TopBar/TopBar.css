@@ -1,0 +1,36 @@
+.TopBar{
+    width: 100vw;
+    height: 8vh;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #777;
+    position: absolute;
+}
+.Topbar-Content{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+.Topbar-Content>img{
+    width: 30px;
+    height: 30px;
+}
+.Topbar-Content>ul{
+    display: flex;
+    list-style: none;
+    gap: 43px;
+    align-items: center;
+    margin-left: 33px;
+}
+.Topbar-Content>ul li{
+    font-size: 20px;
+    font-weight: 700;
+    color:#777
+}
+.Topbar-Content>ul li:hover{
+    cursor: pointer;
+}
+#logo{
+    font-weight: 800;
+}

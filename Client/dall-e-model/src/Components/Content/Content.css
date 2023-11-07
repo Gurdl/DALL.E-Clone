@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.Content {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    width: 100vw;
+    height: 90vh;
+    background-color: #fafafc;
+    color: #777;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 10%;
+    padding-top: 20px;
+}
+
+.Search-Section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.surprise {
+    font-size: 20px;
+    background-color: #ececf1;
+    color: #000;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 4px 12px;
+    margin: 0 0 2px 5px
+}
+
+.surprise:hover {
+    background-color: #cacaca;
+    color: #000;
+    cursor: pointer;
+}
+
+.Input-Container {
+    width: 90%;
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 82, 0.12) 0 2px 4px;
+    margin: 20px 10px 10px;
+}
+
+.Input-Container>input {
+    border: none;
+    outline: none;
+    padding: 13px 14px;
+    font-size: 18px;
+    width: 93%;
+    font-weight: 600;
+}
+
+.Input-Container>input::placeholder {
+    color: #cacaca;
+    font-weight: 200;
+}
+
+.Input-Container>button {
+    width: 7%;
+    border: none;
+    font-size: 17px;
+    padding: 5px 10px;
+    border-left: 1px solid #cacaca;
+    background-color: #fff;
+    color: #777;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Input-Container>button:active {
+    background-color: #777;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Number-Of-Images {
+    width: 50%;
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 82, 0.12) 0 2px 4px;
+    margin: 20px 10px 10px;
+    padding: 10px;
+}
+
+.Number-Of-Images>span {
+    width: 50%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Number-Of-Images>select {
+    width: 50%;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.uploadHeading{
+    cursor: pointer;
+}
+
+.Images-Container {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    align-items: stretch;
+    justify-content: space-evenly;
+    background-color: #fafafcff;
+}
+
+.Images-Container img {
+    margin: 1px;
+    min-width: 100px;
+    max-width: 27%;
+    flex-grow: 1;
+    border-radius: 10px;
+
+}
+
+.Error-Message {
+    position: absolute;
+    top: 13%;
+    color: red;
+}
+
+#fileUpload {
+    display: none;
+}
+
+.Upload-Images {
+    margin: 25px 10px;
+    justify-content: center;
+    display: flex;
+}
+.toEdit{
+    font-weight: 300;
+    font-family:'Times New Roman', Times, serif
+}
